@@ -1,6 +1,7 @@
 Change Your Terminal Theme
 
-![Screenshot from 2024-08-04 22-27-04](https://github.com/user-attachments/assets/e2ba5c8f-3250-4535-82dc-01ed497169e5)
+
+![Screenshot from 2024-08-04 22-46-30](https://github.com/user-attachments/assets/be0d27cf-d2f7-4626-a04f-586b90956335)
 
 This file allows you to customize your Zsh terminal theme.
 Instructions
