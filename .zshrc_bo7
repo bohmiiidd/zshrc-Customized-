@@ -103,7 +103,7 @@ else
 fi
 
 if [ $IP3 ]; then
-    WIFI="%F{green}─🮤🏠 %F{red}$IP3%F{green}🮥"
+    WIFI="%F{green}─🮤🖧 %F{red}$IP3%F{green}🮥"
 else
     WIFI=""
 fi
@@ -111,14 +111,14 @@ fi
 
 DIR=$'%B%F{green}%(6~.%-1~/…/%4~.%5~)%b%F{green}'
 name=$(whoami)
-NAME=$'%F{blue}👨‍💻 %F{magenta}$name'
+NAME=$'%F{blue}🐧%F{magenta}$name'
 
 if [ "$color_prompt" = yes ]; then
 
 	# Assemble the prompt in pieces for readability
 	LINE1=$'%F{green}┌──🮤'$NAME'%F{green}🮥'$LOCAL$VPN$WIFI
-	LINE2=$'\n├──🮤%B%F{yellow}%b  '$DIR'🮥'
-	LINE3=$'\n└─%F{blue}$   '
+	LINE2=$'\n├──[%B%F{yellow}%b  '$DIR'🮥'
+	LINE3=$'\n▄︻デ══━一💲 %F{blue}' 
 
 	TIME=$'%t'
 
@@ -244,4 +244,3 @@ export PATH=$PATH:$GOROOT/bin
 export PATH="/path/to/gcloud/bin:$PATH"
 
 [[ -s "/home/kali/.gvm/scripts/gvm" ]] && source "/home/kali/.gvm/scripts/gvm"
-
